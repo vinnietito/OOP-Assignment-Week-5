@@ -8,4 +8,7 @@ class Car(Vehicle):
     def move(self):
         return "Driving on the road"
     
-    
+# Subclass for Plane
+class Plane(Vehicle):
+    def move(self):
+        return "Flying in the sky"
