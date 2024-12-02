@@ -10,3 +10,9 @@ class Smartphone:
     
     def display_info(self):
         return f"Smartphone: {self.brand} {self.model}, Price: {self.price}"
+    
+    
+# Subclass inheriting from Smartphone
+class GamingSmartphone(Smartphone):
+    def __init__(self, brand, model, price):
+        super().__init__(brand, model, price)
