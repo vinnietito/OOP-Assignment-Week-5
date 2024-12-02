@@ -19,4 +19,10 @@ class GamingSmartphone(Smartphone):
         self.cooling_system = cooling_system
         self.refresh_rate = refresh_rate
         
+    def play_game(self, game):
+        return f"Playing {game} at {self.refresh_rate}Hz with {self.cooling_system} cooling system!"
     
+    
+# Creating objects
+phone1 = Smartphone("Samsung", "Galaxy S21", 799)
+gaming_phone = GamingSmartphone("ASUS", "ROG Phone 6", 999, "Liquid Cooling", 144)
