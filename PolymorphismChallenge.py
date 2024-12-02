@@ -23,3 +23,5 @@ class Boat(Vehicle):
 Vehicles = [Car(), Plane(), Boat()]
 
 # Test Move() method for each vehicle
+for vehicle in Vehicles:
+    print(vehicle.move())
