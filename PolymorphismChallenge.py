@@ -17,3 +17,9 @@ class Plane(Vehicle):
 class Boat(Vehicle):
     def move(self):
         return "Sailling on water"
+    
+    
+#List of vehicles demostrating polymophism
+Vehicles = [Car(), Plane(), Boat()]
+
+# Test Move() method for each vehicle
