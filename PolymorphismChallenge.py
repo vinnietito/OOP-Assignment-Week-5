@@ -12,3 +12,5 @@ class Car(Vehicle):
 class Plane(Vehicle):
     def move(self):
         return "Flying in the sky"
+
+# Subclass for Boat
