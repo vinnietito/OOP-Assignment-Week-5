@@ -14,5 +14,9 @@ class Smartphone:
     
 # Subclass inheriting from Smartphone
 class GamingSmartphone(Smartphone):
-    def __init__(self, brand, model, price):
+    def __init__(self, brand, model, price, cooling_system, refresh_rate):
         super().__init__(brand, model, price)
+        self.cooling_system = cooling_system
+        self.refresh_rate = refresh_rate
+        
+    
