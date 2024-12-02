@@ -29,6 +29,6 @@ gaming_phone = GamingSmartphone("ASUS", "ROG Phone 6", 999, "Liquid Cooling", 14
 
 # Testing methods
 print(phone1.display_info())
-print(phone1.call(123-456-7890))
+print(phone1.call("123-456-7890"))
 print(gaming_phone.display_info())
 print(gaming_phone.play_game("Call of Duty Mobile"))
