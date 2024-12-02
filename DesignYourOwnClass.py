@@ -26,3 +26,6 @@ class GamingSmartphone(Smartphone):
 # Creating objects
 phone1 = Smartphone("Samsung", "Galaxy S21", 799)
 gaming_phone = GamingSmartphone("ASUS", "ROG Phone 6", 999, "Liquid Cooling", 144)
+
+# Testing methods
+print(phone1.display_info())
